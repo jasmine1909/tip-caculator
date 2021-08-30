@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./pexels-photo-3483098.jpeg") center/cover no-repeat;
+}
+div {
+  margin-top: 1rem;
+  background-color: white;
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+input {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 0.3rem;
+}
+button {
+  box-shadow: 1px 1px 5px 1px rgb(2, 46, 61);
+  padding: 0.5rem 1.2rem;
+  border: none;
+  background-color: rgb(3, 43, 56);
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 2rem;
+}
